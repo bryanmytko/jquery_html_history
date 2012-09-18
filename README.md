@@ -1,23 +1,4 @@
-<!doctype html>
-<head>
-<meta charset="utf-8">
-<style type="text/css">
-body { font-family: "Helvetica", "Arial", sans-serif; font-size: 1.0em; color: #666; line-height: 1.5em }
-#main { width: 980px; margin: 0 auto }
-h1,h2,a { color: #0F70B8 }
-h3 { color: #f60 }
-pre { background-color: #F8F8F8;
-border: 1px solid #CCC;
-font-size: 13px;
-line-height: 19px;
-overflow: auto;
-padding: 6px 10px;
-border-radius: 3px;
-}
-</style>
-</head>
-<body>
-<div id="main">
+
 	<h1>Guide to using the HTML History API...<h1>
 	<h2>...to hack the location bar for a seamless user experience without page reloads</h2>
 	<h3>Overview</h3>
@@ -53,7 +34,3 @@ I have created a simple jQuery plugin to achieve this functionality. Feel free t
   });
 &lt;/script></pre>
 <p>Note: if you don't set the <strong>content</strong> or <strong>getParam</strong> they will default to "content" and "ajax_req" respectively.</p>
-<p>Checkout the plugin on <a href="https://github.com/bryanmytko/jqueryHtmlHistory">GitHub<a/>.</p>
-</div>
-</body>
-</html>
