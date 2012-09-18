@@ -1,5 +1,4 @@
-
-	<h1>Guide to using the HTML History API...<h1>
+<h1>Guide to using the HTML History API...<h1>
 	<h2>...to hack the location bar for a seamless user experience without page reloads</h2>
 	<h3>Overview</h3>
 	<p>The HTML History API allows us to manipulate the history stack (in HTML5) through an interface provided by the history object. Well, what is so great about that? Let's take a look at how we can use this to our advantage and create a website that requires no page reloads while navigating through the site.</p><p>We all know how to use AJAX within our websites to send and retrieve data asynchronously to and from the server, in an effort to create truly dynamic web applications. But what if our entire experience took place without ever having to reload a page? One of the major drawbacks to this type of approach is that there is only one entry point, namely the index, which controls and modifies your content. How do you send a link to your friend? How do you bookmark a subpage for later viewing? We can do this by using the History API and actually changing the URL in the browser's location bar, as well as modifying the browser history stack, while loading our content via AJAX to create a very smooth user experience without reloading static elements (such as headers, footers, javascript, css, fonts, etc) every time you navigate to the next page. </p>
