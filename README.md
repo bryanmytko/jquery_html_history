@@ -19,9 +19,9 @@
 <h3>HTML History Plugin</h3>
 I have created a simple jQuery plugin to achieve this functionality. Feel free to modify it to your own needs. You obviously have to set up the way the AJAX requests are handled on your backend yourself, but the plugin allows you to configure a content container and a GET parameter through the options. An example of its usage:
 <pre>
-	&lt;a href="foo.php" class="nav">Link 1</a>
-	&lt;a href="bar.php" class="nav">Link 2</a>
-	&lt;div id="mainContainer"></div>
+	&lt;a href="foo.php" class="nav">Link 1&lt;/a>
+	&lt;a href="bar.php" class="nav">Link 2&lt;/a>
+	&lt;div id="mainContainer">&lt;/div>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script src="js/html-history.js"></script>
 	<script>
